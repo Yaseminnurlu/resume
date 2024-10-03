@@ -1,2 +1,2 @@
 # resume
-Here is my resume website via HTMŞ, CSS and JavaScript.
+Here is my resume website via HTML, CSS and JavaScript.
