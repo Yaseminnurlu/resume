@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont, serif;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf);
+}
+
+#nav-main {
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    background-color: darkolivegreen;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+}
+
+.top {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1px;
+}
+.buttons li{
+    background-color: thistle;
+    border-style: solid;
+    border-color: darkolivegreen;
+    margin: 58% 0;
+    padding: 0;
+    font-size: calc(4px + 2vw);
+}
+
+.side {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+main {
+    background-color: papayawhip;
+    padding: 5%;
+    margin: 0 0;
+}
+#homeMain {
+}
+
+#textEdu {
+    display: flex;
+    flex-direction: column;
+}
+#proMain {
+    width: 100%;
+    text-align: center;
+}
+
+#output {
+    border-style: solid;
+    background-color: thistle;
+    align-self: center;
+}
+
+label {
+    border-style: inset;
+    border-color: darkgoldenrod;
+    background-color: darkgoldenrod;
+}
+#proMain button {
+    background-color: darkseagreen;
+}
+
+#eduMain {
+    padding-block: 3%;
+    width: 100%;
+
+}
+#volMain {
+    padding-block: 3%;
+}
+
+
+#picture {
+    max-width: 30%;
+    padding-right: 1%;
+    display: flex;
+}
+
+.footer {
+    background-color: cadetblue;
+    text-align: center;
+}
+.wrap {
+    width: 82vw;
+    margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+    main {
+        height: 100vh;
+    }
+    .buttons li{
+        display: flex;
+        flex-direction: column ;
+        margin: 1%;
+
+    }
+    #homeMain {
+        max-width: 100%;
+    }
+    #eduMain {
+        max-width: 100%;
+    }
+    #expMain {
+        max-width: 100%;
+    }
+    #volMain {
+        max-width: 100%;
+    }
+    #certMain {
+        max-width: 100%;
+    }
+    #proMain {
+        max-width: 100%;
+    }
+    .side {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+    #nav-main{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: row;
+    }
+}
