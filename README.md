@@ -1,2 +1,2 @@
 # resume
-Here is my resume done in Vite React in JSX.
+Here is my resume website via HTMŞ, CSS and JavaScript.
